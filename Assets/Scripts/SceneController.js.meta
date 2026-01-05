@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/5baea1c4-fd94-4818-88bb-1ecaed952002>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 87f7bd89-cd95-4ba3-97d3-056b5d6dfea0
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 87f7bd89-cd95-4ba3-97d3-056b5d6dfea0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 0b749f21-90ba-4526-92fe-bf7b7ab4a313
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/0b749f21-90ba-4526-92fe-bf7b7ab4a313>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b76696c2-e649-4945-8b71-1d16021cbc84
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bg1: false
+    bg2: false
+    carousel: false
+    fourBackground: false
+    oneBackground: false
+    threeBackground: false
+    trailTransform: false
+    twoBackground: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - oneBackground: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      twoBackground: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      threeBackground: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      fourBackground: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      bg1: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      bg2: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      trailTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      carousel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
