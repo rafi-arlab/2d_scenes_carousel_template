@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/b9f4a6b6-4657-46c5-8b8b-14a0b665d3aa>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 75639632-80fb-4be0-8ec5-df9e898c9e97
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 75639632-80fb-4be0-8ec5-df9e898c9e97
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4b788530-7f87-4aeb-a67a-3786e2e1520c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4b788530-7f87-4aeb-a67a-3786e2e1520c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 52a50ee4-1b5f-46ab-ad7b-b60fbb1cacb0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    background: false
+    elementRotate: false
+    elementRotationParams: false
+    elementTimings: false
+    elementTransforms: false
+    elements: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - background: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      elements: !<reference.Material[]>
+        []
+      elementTimings: !<Vec2[]>
+        []
+      elementTransforms: !<reference.ScreenTransform[]>
+        []
+      elementRotate: !<bool[]>
+        []
+      elementRotationParams: !<Vec4[]>
+        []
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,150 @@
+- !<Material/121f0fb6-7a74-4aee-9f06-5abc3b745c64>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> c0a27a5c-01a1-4c45-8d89-b29a14a9c399
+- !<PassInfo/c0a27a5c-01a1-4c45-8d89-b29a14a9c399>
+  CachedProperties:
+    - Port_Value0_N153:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - baseTexTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - revealMap:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - revealMapTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_BASE_TEX
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - NODE_34_DROPLIST_ITEM 1
+    - NODE_157_DROPLIST_ITEM 3
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N081:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Default_N033:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Default_N204:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N077:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Import_N078:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Import_N080:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input0_N091:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input0_N102:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N090:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N091:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N108:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N159:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input2_N090:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N108:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxA_N079:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxA_N104:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxB_N079:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxB_N107:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N079:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N104:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N079:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N107:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value3_N153:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 990acdc9-c809-4b78-9d0e-868095771977
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    invertReveal:
+      typeIdx: 2
+      value: false
+    revealRatio:
+      typeIdx: 1
+      value: 0.000000
+    revealSize:
+      typeIdx: 1
+      value: 0.010000
+  Pass: !<reference> 3520d30d-3b63-4d94-b8eb-518fa4d86f60

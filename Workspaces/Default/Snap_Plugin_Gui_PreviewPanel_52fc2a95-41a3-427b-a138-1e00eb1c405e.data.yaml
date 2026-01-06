@@ -1,6 +1,6 @@
 data:
   cameraToMultimedia:
-    - Front: PreviewResources.bundle/Video/Idle/Idle.mp4
+    - Front: PreviewResources.bundle/Video/Idle/Idle Person 6.mp4
     - Back: PreviewResources.bundle/Video/World/Beach.mp4
   cameraType: Perspective
   deviceName: iPhone 14 Pro
@@ -12,7 +12,7 @@ data:
   inputSourceData:
     type: Multimedia
     input:
-      source: PreviewResources.bundle/Video/Idle/Idle.mp4
+      source: PreviewResources.bundle/Video/Idle/Idle Person 6.mp4
       upscale: 1280
     cameraView: Front
   interactiveAspect: 1.000000

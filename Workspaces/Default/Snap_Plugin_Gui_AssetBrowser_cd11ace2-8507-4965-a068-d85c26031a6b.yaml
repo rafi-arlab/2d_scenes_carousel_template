@@ -1,9 +1,8 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 71
+    size: 63
     values:
-      - ""
       - Envmaps
       - Envmaps/Echopark_DEFAULT.hdr
       - Envmaps/Echopark_DEFAULT.hdr/Diffuse
@@ -13,40 +12,34 @@ CollapsedEntities:
       - Hints/Hint_Tap_No_Dot.lensanim/Hint_Tap_No_Dot
       - Hints/Hint_Tap_No_Dot.lensanim/LPD_87_Hint_TAP_out_v01.png
       - Hints/hint_tap_animation.mat
-      - Image 2.mat
-      - Image 3.mat
-      - Image Carousel.lsc/Materials
-      - Image Carousel.lsc/Materials/CarouselBackground.mat
-      - Image Carousel.lsc/Materials/CarouselItem.mat
-      - Image Carousel.lsc/Materials/CarouselRing.mat
+      - Image Carousel.lsc
       - Image Carousel.lsc/Scripts
       - Image Carousel.lsc/Scripts/DestructionHelper_100.js
       - Image Carousel.lsc/Scripts/EventModule_101.js
       - Image Carousel.lsc/Scripts/Image Carousel.js
-      - Image Carousel.lsc/Shaders
-      - Image Carousel.lsc/Shaders/CarouselBackground.ss_graph
-      - Image Carousel.lsc/Shaders/CarouselItem.ss_graph
-      - Image Carousel.lsc/Shaders/CarouselRing.ss_graph
       - Image Carousel.lsc/Textures
       - Image Carousel.lsc/Textures/lock.png
       - Image Carousel.lsc/Textures/ring.png
       - Image Carousel.lsc/package.native
-      - Image.mat
-      - Image.png
       - Images
       - Images/1.png
       - Images/1.png~
       - Images/2.png
+      - Images/2.png~
       - Images/3.png
+      - Images/3.png~
       - Images/4.png
+      - Images/4.png~
+      - Images/Image.png
+      - Images/Initial Background (Optimized).png
+      - Images/Trail Reveal Map.png
       - Images/trail.png
-      - Initial Background (Optimized).png
-      - Materials
       - Materials/3d_hints_render.mat
       - Materials/logo.mat
       - Materials/restart_button.mat
       - Passes
       - Passes/flat.ss_graph
+      - Passes/reveal-image (2).ss_graph
       - Render Targets
       - Render Targets/Device Camera Texture.deviceCameraTexture
       - Render Targets/Live Only 2D Render Target.renderTarget
@@ -60,6 +53,7 @@ CollapsedEntities:
       - Scripts/Scene Controllers/SelfieWorldController.js
       - Scripts/Scene.js
       - Scripts/SceneController.js
+      - Scripts/SceneData.js
       - Scripts/TweenManager
       - Scripts/TweenManager/CustomTweenManager.js
       - Scripts/TweenManager/Tween.js
@@ -72,6 +66,4 @@ CollapsedEntities:
       - Textures/Device Camera Texture.deviceCameraTexture
       - Textures/UI
       - Textures/UI/ui-reset-button.png
-      - Trail Reveal Map.png
-      - reveal-image (2).ss_graph
   options: 4

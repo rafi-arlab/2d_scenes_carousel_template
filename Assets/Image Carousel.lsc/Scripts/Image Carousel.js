@@ -494,7 +494,7 @@ function initInteraction(root, st) {
         }
         touchCooldownUntil = getTime() + 1.0;
         var screenPos = args.getTouchPosition();
-        script.debugText.text = "";
+        //script.debugText.text = "";
         const pos = st.screenPointToLocalPoint(screenPos);
         touching = true;
         lastTouch.pos.x = pos.x;

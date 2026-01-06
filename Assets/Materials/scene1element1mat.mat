@@ -1,0 +1,153 @@
+- !<Material/f91ce350-435c-4a4d-b578-ca4e6c61a9e4>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> e809c60a-21cf-46d2-91ac-4def3f9b1160
+- !<PassInfo/e809c60a-21cf-46d2-91ac-4def3f9b1160>
+  CachedProperties:
+    - Port_Value0_N153:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - Port_Value2_N153:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - baseTexTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - revealMap:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - revealMapTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_BASE_TEX
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - NODE_34_DROPLIST_ITEM 1
+    - NODE_157_DROPLIST_ITEM 3
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N081:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Default_N033:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Default_N204:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N077:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Import_N078:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Port_Import_N080:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input0_N091:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input0_N102:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N090:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N091:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N108:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N159:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input2_N090:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N108:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxA_N079:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxA_N104:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxB_N079:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMaxB_N107:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N079:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N104:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N079:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N107:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value3_N153:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 3e5d2e17-f318-4cf9-b391-25e8b3ba73b3
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    invertReveal:
+      typeIdx: 2
+      value: false
+    revealRatio:
+      typeIdx: 1
+      value: 0.000000
+    revealSize:
+      typeIdx: 1
+      value: 0.010000
+  Pass: !<reference> 3520d30d-3b63-4d94-b8eb-518fa4d86f60

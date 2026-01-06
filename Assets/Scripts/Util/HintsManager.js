@@ -14,6 +14,9 @@ global.ShowHint = (id, delay, callback) => {
 }
 
 global.HideHint = (id, delay, callback) => {
+        if(script.hints[id].mainPass.baseColor.a==0){
+        return
+    }
     if (id < 0 || id > script.hints.length - 1) {
         print("WARNING: Hint with id " + id + " does not exist.")
         return

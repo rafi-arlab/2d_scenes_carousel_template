@@ -29,11 +29,9 @@
     bg1: false
     bg2: false
     carousel: false
-    fourBackground: false
-    oneBackground: false
-    threeBackground: false
+    initialDelaySeconds: false
+    sceneDataList: false
     trailTransform: false
-    twoBackground: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -43,10 +41,9 @@
   Attachments:
     []
   DefaultScriptInputs:
-    - oneBackground: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      twoBackground: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      threeBackground: !<reference.Texture> 00000000-0000-0000-0000-000000000000
-      fourBackground: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+    - initialDelaySeconds: 2
+      sceneDataList: !<reference.ScriptComponent[]>
+        []
       bg1: !<reference.Material> 00000000-0000-0000-0000-000000000000
       bg2: !<reference.Material> 00000000-0000-0000-0000-000000000000
       trailTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
