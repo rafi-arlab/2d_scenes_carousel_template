@@ -1,10 +1,12 @@
 Project: 2D Scenes Carousel Template
 =====================================
-files overview:
+# files overview:
 - SceneController.js : detects carousel changes -> calls hide and show functions from Scene.js also includes tweens for bg switch and trail.
 - Scene.js : creates an instance of the Scene class for each scene, handles element tweens (rotation, float, reveal)
 - SceneData.js : if you want to make a new scene add another SceneData component to the ScenesList object and make sure to also include it in the SceneDataList of SceneController.js. in the inputs of SceneData you can add elements and give them tweens.
-Inspector inputs 
+
+# Inspector inputs 
+
 - **SceneData.js** : 
     - `background` (type: `Texture`) — just the background of the scene
     - `elements` (type: `Material[]`) — mats for each element, to be used in reveal tween.
