@@ -27,7 +27,7 @@
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     background: false
-    elementRotate: false
+    elementBehaviors: false
     elementRotationParams: false
     elementTimings: false
     elementTransforms: false
@@ -48,7 +48,7 @@
         []
       elementTransforms: !<reference.ScreenTransform[]>
         []
-      elementRotate: !<bool[]>
+      elementBehaviors: !<Vec2[]>
         []
       elementRotationParams: !<Vec4[]>
         []

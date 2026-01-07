@@ -2187,7 +2187,7 @@
       elementRotate: !<bool[]>
         - true
       elementRotationParams: !<Vec4[]>
-        - {x: -20.000000, y: 20.000000, z: 3.000000, w: 3.500000}
+        - {x: -20.000000, y: 20.000000, z: 3.000000, w: 1.500000}
   ScriptTypes:
     "":
       {}

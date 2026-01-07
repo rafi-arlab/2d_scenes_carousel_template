@@ -52,7 +52,7 @@ global.CrossfadeAudios = (id1, id2) => {
             script.sounds[id2].volume = progress         
         },
         onStart: () => { script.sounds[id2].play(1) },
-        onComplete: () => { script.sounds[id1].pause() }
+       // onComplete: () => { script.sounds[id1].pause() }
     })
     crossfadeSoundsTween.start()
 }

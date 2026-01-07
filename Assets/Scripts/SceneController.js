@@ -5,14 +5,15 @@
 //@input Asset.Material bg2
 //@input Component.ScreenTransform trailTransform
 //@input Component.ScriptComponent carousel
-
+//@input vec2 bezierPoints = [] { "label": "Trail Tween Bezier Points \n(can be edited to sync \ntrail with bg switching)"}
+//@input float bgSwitchDuration = 2.0
 var currentSceneIndex = 0;
 var scenes = [];
 
 function startRevealTween(delayTime) {
 	var tweenParams = {
 		name: "MaterialRevealTween",
-		duration: 2,
+		duration: script.bgSwitchDuration,
 		delay: delayTime,
 		easing: global.Easings.QuadraticOut,
 		onUpdate: function(progress) {
@@ -32,10 +33,10 @@ function startRevealTween(delayTime) {
 function startRevealTweentr(delayTime) {
 	var tweenParams = {
 		name: "MaterialRevealTween2",
-		duration: 2,
+		duration: script.bgSwitchDuration,
 		delay: delayTime,
 		easing: global.Easings.Bezier,
-        bezierPoints: [0.5,0.8],
+        bezierPoints: [script.bezierPoints.x, script.bezierPoints.y],
 		onUpdate: function(progress) {
             script.trailTransform.anchors.setCenter(new vec2(-3*progress+2, 2.2*progress-1));
 		},
@@ -53,6 +54,7 @@ function initializeScenes() {
 }
 
 script.showScene = function(index, initialDelay, prev) {
+	global.CrossfadeAudios(prev, index);
 	var scene = scenes[index];
 	if (!scene) return;
 	script.bg1.mainPass.baseTex = scene.background;

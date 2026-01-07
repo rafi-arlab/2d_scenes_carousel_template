@@ -26,8 +26,10 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    bezierPoints: false
     bg1: false
     bg2: false
+    bgSwitchDuration: false
     carousel: false
     initialDelaySeconds: false
     sceneDataList: false
@@ -48,6 +50,8 @@
       bg2: !<reference.Material> 00000000-0000-0000-0000-000000000000
       trailTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
       carousel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      bezierPoints: !<Vec2> {x: 0.000000, y: 0.000000}
+      bgSwitchDuration: !<float> 2.000000
   ScriptTypes:
     -
       {}
